@@ -1,0 +1,187 @@
+
+
+*{
+		font-family:"Didot, serif",sans-serif;
+		margin: 0;
+		padding: 0;
+		background-color: #F0F8FF;
+	}
+	
+	#banner {
+		float: left;
+		width: 100%;
+		border: 1px solid black;
+		background: 	#F0F8FF;
+		position:relative;
+		min-width: 700px;
+		font-family: "Brush Script MT";
+	}
+	
+	.banner {
+		font-size: 7em;
+		margin-left: 2%;
+		font-family: "Brush Script MT";
+	}
+	
+	.heading {
+		color: black;
+		font-size: 3em;
+		margin-top: 2em;
+		font-family: "Brush Script MT";
+	}
+	
+	.areaHeading {
+		color: black;
+		font-size: 1.5em;
+		margin-top: 1em;
+		font-family: "Brush Script MT";
+	}
+
+	img.aleft {
+		float: left;
+		width: 131px;
+		margin-right: 1em;
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 1em;
+	}
+	
+	.clear {
+		clear: both;
+	}	
+	
+	div.aleft {
+		clear: both;
+		float: left;
+	}
+	
+	span.aright {
+		float: right;
+	}	
+	
+	#main {
+		clear: both;
+		position: relative;
+		float:left;
+		margin-top:-1px;
+		width:100%;
+		min-width: 600px;
+	}
+	
+	.log {
+		margin-bottom: 10px;
+	}
+	
+	li{
+		margin-bottom:2em;
+	}
+	
+	body{
+		margin-left:5%;
+		margin-right:5%;
+		background-color:	#F0F8FF;
+	}
+	
+	#content{
+		background-color:#fff;
+		padding:1em;
+		border-left: .5px solid black;
+		border-right: .5px solid black;
+		border-bottom: .5px solid black;
+	}
+	
+	#content h1{
+		margin-top:0;
+		font-family: "Brush Script MT";
+	}
+		
+	#items{
+		margin-bottom:2em;
+	}
+	
+	#items h2{
+		margin-bottom:0;
+		padding-bottom:0;
+		font-family: "Brush Script MT";
+	}
+		
+	.one_item {
+		padding: 30px;
+	}
+	
+	#items_controls {
+		background: #dde;
+		padding: 5px;
+	}
+		
+	code{
+		font-family:courier;
+	}
+	
+#navlist{
+	padding: 3px 0;
+	margin: .5em 0 0 0;
+	border: 1px solid #778;
+	font-size:14pt;
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: 	#F0F8FF;
+}
+
+#navlist li{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#navlist li a{
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #778;
+border-bottom: none;
+background: #D3D3D3;
+text-decoration: none;
+}
+
+#navlist li a:link { color: black; }
+#navlist li a:visited { color: black; }
+
+#navlist li a:hover{
+color: #000;
+background: #AAE;
+border-color: #227;
+}
+
+#navlist li a#current{
+background: white;
+border-bottom: 1px solid white;
+}
+
+.one_item h3{
+	font-weight: bold;
+	margin-bottom:0;
+	padding-bottom:0;
+	color:black;
+	font-family: "Didot, serif",sans-serif;	
+}
+
+.one_item p{
+	margin-top:0;
+	padding-top:.5em;
+}
+.one_item{
+	border-bottom:1px solid gray;
+}
+
+.box, #sales, #items {
+-moz-box-shadow: 0 0 10px #000000;
+-webkit-box-shadow:0 0 10px #000000;
+box-shadow:0 0 10px #000000;
+padding: 30px;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border-radius: 5px; 
+border: 1px solid;
+margin-top: 20px;
+}
